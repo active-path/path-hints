@@ -1,3 +1,4 @@
+require 'active_path'
 require 'active_path/path_hints/subscriber'
 module ActivePath
   module PathHints
