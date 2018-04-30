@@ -10,6 +10,6 @@ task :release do
   system 'git push --tags'
 
   system "gem build active_path-path_hints.gemspec"
-  system "gem push active_path-path_hints#{ActivePath::PathHints::VERSION}.gem"
-  system "rm active_path-path_hints#{ActivePath::PathHints::VERSION}.gem"
+  system "gem push active_path-path_hints-#{ActivePath::PathHints::VERSION}.gem"
+  system "rm active_path-path_hints-#{ActivePath::PathHints::VERSION}.gem"
 end
